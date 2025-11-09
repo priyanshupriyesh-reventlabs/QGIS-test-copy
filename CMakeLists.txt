@@ -14,7 +14,7 @@ if("${CMAKE_VERSION}" VERSION_GREATER_EQUAL "3.31")
   cmake_policy(SET CMP0177 NEW)
 endif()
 
-# don't relink it only the shared object changes
+# don't relink it only the shared object changes 
 set(CMAKE_LINK_DEPENDS_NO_SHARED ON)
 
 set (BUILD_WITH_QT6 TRUE CACHE BOOL "Enable Qt6 support")
